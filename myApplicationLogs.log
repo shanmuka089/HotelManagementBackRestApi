@@ -1,0 +1,107 @@
+2022-05-23 18:26:12.452  INFO PID --- [  restartedMain] otelManagementApplicationBackApplication : Starting HotelManagementApplicationBackApplication using Java 17.0.2 on LAPTOP-FKJD5OO5 with PID 13944 (E:\springBoot\HotelManagementApplicationBack\target\classes started by shanm in E:\springBoot\HotelManagementApplicationBack)
+2022-05-23 18:26:12.453  INFO PID --- [  restartedMain] otelManagementApplicationBackApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-23 18:26:12.686  INFO PID --- [  restartedMain] y.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-23 18:26:12.708  INFO PID --- [  restartedMain] y.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+2022-05-23 18:26:12.802  INFO PID --- [  restartedMain] boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-05-23 18:26:12.804  INFO PID --- [  restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-05-23 18:26:12.804  INFO PID --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-23 18:26:12.826  INFO PID --- [  restartedMain] e.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-05-23 18:26:12.826  INFO PID --- [  restartedMain] ntext.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 370 ms
+2022-05-23 18:26:12.855  WARN PID --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-23 18:26:12.876  INFO PID --- [  restartedMain] rg.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-23 18:26:12.881  INFO PID --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2022-05-23 18:26:12.898  INFO PID --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2022-05-23 18:26:12.899  INFO PID --- [  restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-23 18:26:12.975  INFO PID --- [  restartedMain] a.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-23 18:26:12.975  INFO PID --- [  restartedMain] a.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-23 18:26:13.084  INFO PID --- [  restartedMain] mework.boot.web.servlet.RegistrationBean : Filter jwtAuthenticationFilter was not registered (disabled)
+2022-05-23 18:26:13.130  WARN PID --- [  restartedMain] nfig.annotation.web.builders.WebSecurity : You are asking Spring Security to ignore Ant [pattern='/signIn']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-23 18:26:13.130  INFO PID --- [  restartedMain] .security.web.DefaultSecurityFilterChain : Will not secure Ant [pattern='/signIn']
+2022-05-23 18:26:13.131  WARN PID --- [  restartedMain] nfig.annotation.web.builders.WebSecurity : You are asking Spring Security to ignore Ant [pattern='/signUp']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-23 18:26:13.131  INFO PID --- [  restartedMain] .security.web.DefaultSecurityFilterChain : Will not secure Ant [pattern='/signUp']
+2022-05-23 18:26:13.131  WARN PID --- [  restartedMain] nfig.annotation.web.builders.WebSecurity : You are asking Spring Security to ignore Ant [pattern='/get-user']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-23 18:26:13.131  INFO PID --- [  restartedMain] .security.web.DefaultSecurityFilterChain : Will not secure Ant [pattern='/get-user']
+2022-05-23 18:26:13.132  WARN PID --- [  restartedMain] nfig.annotation.web.builders.WebSecurity : You are asking Spring Security to ignore Ant [pattern='/change-user-pass']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-23 18:26:13.132  INFO PID --- [  restartedMain] .security.web.DefaultSecurityFilterChain : Will not secure Ant [pattern='/change-user-pass']
+2022-05-23 18:26:13.179  INFO PID --- [  restartedMain] .security.web.DefaultSecurityFilterChain : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46eb68dd, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f593c2f, org.springframework.security.web.header.HeaderWriterFilter@431a7b6b, org.springframework.web.filter.CorsFilter@566d3849, org.springframework.security.web.authentication.logout.LogoutFilter@43621491, com.example.demo.filters.JwtAuthenticationFilter@21dcea22, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d0311ff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d52f417, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ab3ac9, org.springframework.security.web.session.SessionManagementFilter@3d9abf9b, org.springframework.security.web.access.ExceptionTranslationFilter@1f8da4a7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1229ebfd]
+2022-05-23 18:26:13.236  INFO PID --- [  restartedMain] s.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-05-23 18:26:13.244  INFO PID --- [  restartedMain] boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-23 18:26:13.246  INFO PID --- [  restartedMain] otelManagementApplicationBackApplication : Started HotelManagementApplicationBackApplication in 0.852 seconds (JVM running for 3600.627)
+2022-05-23 18:26:13.247  INFO PID --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-23 18:26:29.270  INFO PID --- [nio-8080-exec-1] e.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-23 18:26:29.270  INFO PID --- [nio-8080-exec-1] gframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-05-23 18:26:29.272  INFO PID --- [nio-8080-exec-1] gframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2022-05-23 18:26:29.732  INFO PID --- [nio-8080-exec-1] emo.controllers.AuthenticationController : shanu try to sign your application
+2022-05-23 18:29:23.189  INFO PID --- [      Thread-66] a.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-23 18:29:23.191  INFO PID --- [      Thread-66] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
+2022-05-23 18:29:23.203  INFO PID --- [      Thread-66] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.
+2022-05-23 18:29:23.414  INFO PID --- [  restartedMain] otelManagementApplicationBackApplication : Starting HotelManagementApplicationBackApplication using Java 17.0.2 on LAPTOP-FKJD5OO5 with PID 13944 (E:\springBoot\HotelManagementApplicationBack\target\classes started by shanm in E:\springBoot\HotelManagementApplicationBack)
+2022-05-23 18:29:23.415  INFO PID --- [  restartedMain] otelManagementApplicationBackApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-23 18:29:23.712  INFO PID --- [  restartedMain] y.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-23 18:29:23.743  INFO PID --- [  restartedMain] y.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 3 JPA repository interfaces.
+2022-05-23 18:29:23.822  INFO PID --- [  restartedMain] boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-05-23 18:29:23.822  INFO PID --- [  restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-05-23 18:29:23.823  INFO PID --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-23 18:29:23.860  INFO PID --- [  restartedMain] e.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-05-23 18:29:23.861  INFO PID --- [  restartedMain] ntext.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 442 ms
+2022-05-23 18:29:23.887  WARN PID --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-23 18:29:23.919  INFO PID --- [  restartedMain] rg.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-23 18:29:23.929  INFO PID --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Starting...
+2022-05-23 18:29:23.955  INFO PID --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Start completed.
+2022-05-23 18:29:23.955  INFO PID --- [  restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-23 18:29:24.051  INFO PID --- [  restartedMain] a.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-23 18:29:24.051  INFO PID --- [  restartedMain] a.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-23 18:29:24.143  INFO PID --- [  restartedMain] mework.boot.web.servlet.RegistrationBean : Filter jwtAuthenticationFilter was not registered (disabled)
+2022-05-23 18:29:24.215  WARN PID --- [  restartedMain] nfig.annotation.web.builders.WebSecurity : You are asking Spring Security to ignore Ant [pattern='/signIn']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-23 18:29:24.215  INFO PID --- [  restartedMain] .security.web.DefaultSecurityFilterChain : Will not secure Ant [pattern='/signIn']
+2022-05-23 18:29:24.215  WARN PID --- [  restartedMain] nfig.annotation.web.builders.WebSecurity : You are asking Spring Security to ignore Ant [pattern='/signUp']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-23 18:29:24.216  INFO PID --- [  restartedMain] .security.web.DefaultSecurityFilterChain : Will not secure Ant [pattern='/signUp']
+2022-05-23 18:29:24.216  WARN PID --- [  restartedMain] nfig.annotation.web.builders.WebSecurity : You are asking Spring Security to ignore Ant [pattern='/get-user']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-23 18:29:24.216  INFO PID --- [  restartedMain] .security.web.DefaultSecurityFilterChain : Will not secure Ant [pattern='/get-user']
+2022-05-23 18:29:24.216  WARN PID --- [  restartedMain] nfig.annotation.web.builders.WebSecurity : You are asking Spring Security to ignore Ant [pattern='/change-user-pass']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-23 18:29:24.216  INFO PID --- [  restartedMain] .security.web.DefaultSecurityFilterChain : Will not secure Ant [pattern='/change-user-pass']
+2022-05-23 18:29:24.277  INFO PID --- [  restartedMain] .security.web.DefaultSecurityFilterChain : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b6ee8b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@16c9d74, org.springframework.security.web.header.HeaderWriterFilter@66920490, org.springframework.web.filter.CorsFilter@540cd8bd, org.springframework.security.web.authentication.logout.LogoutFilter@3e51a2c2, com.example.demo.filters.JwtAuthenticationFilter@d915926, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b2b2a33, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5deb0d42, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f5be880, org.springframework.security.web.session.SessionManagementFilter@64013d9, org.springframework.security.web.access.ExceptionTranslationFilter@4c3cda30, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@42ed4004]
+2022-05-23 18:29:24.342  INFO PID --- [  restartedMain] s.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-05-23 18:29:24.366  INFO PID --- [  restartedMain] boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-23 18:29:24.369  INFO PID --- [  restartedMain] otelManagementApplicationBackApplication : Started HotelManagementApplicationBackApplication in 1.005 seconds (JVM running for 3791.75)
+2022-05-23 18:29:24.369  INFO PID --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-23 18:29:40.407  INFO PID --- [nio-8080-exec-1] e.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-23 18:29:40.408  INFO PID --- [nio-8080-exec-1] gframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-05-23 18:29:40.410  INFO PID --- [nio-8080-exec-1] gframework.web.servlet.DispatcherServlet : Completed initialization in 2 ms
+2022-05-23 18:29:40.857  INFO PID --- [nio-8080-exec-1] emo.controllers.AuthenticationController : shanu try to sign your application
+2022-05-23 18:30:08.969  INFO PID --- [      Thread-70] a.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-23 18:30:08.969  INFO PID --- [      Thread-70] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown initiated...
+2022-05-23 18:30:08.979  INFO PID --- [      Thread-70] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown completed.
+2022-05-23 18:30:09.205  INFO PID --- [  restartedMain] otelManagementApplicationBackApplication : Starting HotelManagementApplicationBackApplication using Java 17.0.2 on LAPTOP-FKJD5OO5 with PID 13944 (E:\springBoot\HotelManagementApplicationBack\target\classes started by shanm in E:\springBoot\HotelManagementApplicationBack)
+2022-05-23 18:30:09.206  INFO PID --- [  restartedMain] otelManagementApplicationBackApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-23 18:30:09.470  INFO PID --- [  restartedMain] y.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-23 18:30:09.483  INFO PID --- [  restartedMain] y.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 3 JPA repository interfaces.
+2022-05-23 18:30:09.539  INFO PID --- [  restartedMain] boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-05-23 18:30:09.539  INFO PID --- [  restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-05-23 18:30:09.540  INFO PID --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-23 18:30:09.572  INFO PID --- [  restartedMain] e.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-05-23 18:30:09.572  INFO PID --- [  restartedMain] ntext.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 363 ms
+2022-05-23 18:30:09.597  WARN PID --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-23 18:30:09.611  INFO PID --- [  restartedMain] rg.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-23 18:30:09.614  INFO PID --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Starting...
+2022-05-23 18:30:09.634  INFO PID --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Start completed.
+2022-05-23 18:30:09.634  INFO PID --- [  restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-23 18:30:09.703  INFO PID --- [  restartedMain] a.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-23 18:30:09.704  INFO PID --- [  restartedMain] a.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-23 18:30:09.820  INFO PID --- [  restartedMain] mework.boot.web.servlet.RegistrationBean : Filter jwtAuthenticationFilter was not registered (disabled)
+2022-05-23 18:30:09.879  WARN PID --- [  restartedMain] nfig.annotation.web.builders.WebSecurity : You are asking Spring Security to ignore Ant [pattern='/signIn']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-23 18:30:09.879  INFO PID --- [  restartedMain] .security.web.DefaultSecurityFilterChain : Will not secure Ant [pattern='/signIn']
+2022-05-23 18:30:09.879  WARN PID --- [  restartedMain] nfig.annotation.web.builders.WebSecurity : You are asking Spring Security to ignore Ant [pattern='/signUp']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-23 18:30:09.879  INFO PID --- [  restartedMain] .security.web.DefaultSecurityFilterChain : Will not secure Ant [pattern='/signUp']
+2022-05-23 18:30:09.879  WARN PID --- [  restartedMain] nfig.annotation.web.builders.WebSecurity : You are asking Spring Security to ignore Ant [pattern='/get-user']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-23 18:30:09.879  INFO PID --- [  restartedMain] .security.web.DefaultSecurityFilterChain : Will not secure Ant [pattern='/get-user']
+2022-05-23 18:30:09.879  WARN PID --- [  restartedMain] nfig.annotation.web.builders.WebSecurity : You are asking Spring Security to ignore Ant [pattern='/change-user-pass']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-05-23 18:30:09.879  INFO PID --- [  restartedMain] .security.web.DefaultSecurityFilterChain : Will not secure Ant [pattern='/change-user-pass']
+2022-05-23 18:30:09.915  INFO PID --- [  restartedMain] .security.web.DefaultSecurityFilterChain : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13c84914, org.springframework.security.web.context.SecurityContextPersistenceFilter@3088ef9b, org.springframework.security.web.header.HeaderWriterFilter@142ba83f, org.springframework.web.filter.CorsFilter@4f85c139, org.springframework.security.web.authentication.logout.LogoutFilter@5ad945fe, com.example.demo.filters.JwtAuthenticationFilter@6d881d88, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58d01562, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11f32417, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@717b8a86, org.springframework.security.web.session.SessionManagementFilter@d963070, org.springframework.security.web.access.ExceptionTranslationFilter@4755fcb4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73494154]
+2022-05-23 18:30:09.957  INFO PID --- [  restartedMain] s.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-05-23 18:30:09.966  INFO PID --- [  restartedMain] boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-23 18:30:09.970  INFO PID --- [  restartedMain] otelManagementApplicationBackApplication : Started HotelManagementApplicationBackApplication in 0.823 seconds (JVM running for 3837.351)
+2022-05-23 18:30:09.971  INFO PID --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-23 18:37:33.864  INFO PID --- [      Thread-74] a.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-23 18:37:33.865  INFO PID --- [      Thread-74] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown initiated...
+2022-05-23 18:37:33.874  INFO PID --- [      Thread-74] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown completed.
