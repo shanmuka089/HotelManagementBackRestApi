@@ -42,7 +42,8 @@ public class AuthenticationConfiguratin extends WebSecurityConfigurerAdapter{
 
 	@Override
 	public void configure(WebSecurity web) throws Exception {
-		web.ignoring().antMatchers("/signIn","/signUp","/get-user","/change-user-pass");
+		web.ignoring().antMatchers("/signIn","/signUp","/get-user","/change-user-pass","/v3/api-docs/**",
+                "/swagger-ui/**", "/swagger-ui/index.html");
 	}
 	
 	@SuppressWarnings("deprecation")
@@ -76,7 +77,8 @@ public class AuthenticationConfiguratin extends WebSecurityConfigurerAdapter{
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http.cors().and().csrf().disable()
-		.authorizeRequests().antMatchers("/signIn","/signUp").permitAll()
+		.authorizeRequests().antMatchers("/signIn","/signUp","/get-user","/change-user-pass","/v3/api-docs/**",
+                "/swagger-ui/**", "/swagger-ui/index.html").permitAll()
 		.anyRequest().authenticated();
 		http.addFilterBefore(authenticationFilter,UsernamePasswordAuthenticationFilter.class);
 	}
