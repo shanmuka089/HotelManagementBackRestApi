@@ -17,8 +17,8 @@ services:
     ports:
      - "3306:3306"
     environment:
-      - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=sbms
+      - MYSQL_ROOT_PASSWORD=Shanmukha@5525
+      - MYSQL_DATABASE=myDb
     volumes:
       - /data/mysql
 networks:
