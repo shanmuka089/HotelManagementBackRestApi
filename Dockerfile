@@ -8,4 +8,4 @@ WORKDIR /usr/app
 
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", HotelManagementApplicationBack.jar]
+ENTRYPOINT ["java", "-jar", "HotelManagementApplicationBack.jar"]
